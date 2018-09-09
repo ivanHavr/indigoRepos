@@ -18,6 +18,7 @@ public class BasicRestController {
         add(new HashMap<String, String>(){{put("id","2"); put("text","second message");}});
     }};
 
+
     @GetMapping
     private List<Map<String,String>> getAllTest(){
         return messages;
