@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "users", schema = "findigo_main")
+@Table(name = "users", schema = "indigo_prod")
 @Data
 @Slf4j
 public class User {
